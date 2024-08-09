@@ -3,7 +3,7 @@ from datetime import datetime
 from database import connect_db, get_db
 app = Flask(__name__)
 app.config['DEBUG'] = True
-
+#
 
 def convert_pretty_date(date):
     d = datetime.strptime(date, '%Y%m%d')
